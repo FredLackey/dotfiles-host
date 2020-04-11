@@ -33,7 +33,7 @@ To set up the `dotfiles` run the appropriate snippet in the terminal:
 
 | OS | Snippet |
 |:---|:---|
-| `Ubuntu` | `bash -c "$(wget -qO - https://raw.github.com/FredLackey/dotfiles/master/src/os/setup.sh)"` |
+| `Ubuntu` | `bash -c "$(wget -qO - https://raw.github.com/FredLackey/dotfiles-host/master/src/os/setup.sh)"` |
 
 That's it! ✨
 
@@ -84,7 +84,7 @@ alias g="git"
 
 # Set PATH additions.
 
-PATH="$PATH:$HOME/Setup/dotfiles/src/bin"
+PATH="$PATH:$HOME/Setup/dotfiles-host/src/bin"
 
 export PATH
 
@@ -163,8 +163,8 @@ The code is available under the [MIT license][license].
 
 <!-- Link labels: -->
 
-[ci badge]: https://github.com/FredLackey/dotfiles/workflows/test/badge.svg
-[ci link]: https://github.com/FredLackey/dotfiles/actions
+[ci badge]: https://github.com/FredLackey/dotfiles-host/workflows/test/badge.svg
+[ci link]: https://github.com/FredLackey/dotfiles-host/actions
 [dirs]: src/os/create_directories.sh
 [fork]: https://help.github.com/en/github/getting-started-with-github/fork-a-repo
 [git log ubuntu]: https://cloud.githubusercontent.com/assets/1223565/10560955/4b5e1300-7523-11e5-9e96-95ea67de9474.png
@@ -174,7 +174,7 @@ The code is available under the [MIT license][license].
 [license]: LICENSE.txt
 [preferences ubuntu]: src/os/preferences/ubuntu
 [repo]: https://github.com/FredLackey
-[setup script]: https://github.com/FredLackey/dotfiles/blob/2f53485df6be75d207d4c5c03c265730b416555a/src/os/setup.sh#L3
+[setup script]: https://github.com/FredLackey/dotfiles-host/blob/2f53485df6be75d207d4c5c03c265730b416555a/src/os/setup.sh#L3
 [setup ubuntu]: https://cloud.githubusercontent.com/assets/1223565/19048636/e23e347a-89af-11e6-853c-98616b75b6ae.gif
 [setup]: src/os/setup.sh
 [shell]: src/shell
